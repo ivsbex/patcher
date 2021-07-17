@@ -1,0 +1,122 @@
+{
+	"name": "Sublime Merge Build 2057 (Dev) patcher",
+	"versions": ["1.0.1"],
+	"patch": [
+		{
+			"address": "3a4628",
+			"length": 8,
+			"write": false,
+			"values": ["55", "41", "57", "41", "56", "41", "55", "41"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 2057 (Dev)"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "3a7112",
+			"length": 5,
+			"write": false,
+			"values": ["e8", "31", "ea", "1b", "00"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 2057 (Dev)"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "3a70f7",
+			"length": 5,
+			"write": false,
+			"values": ["e8", "4c", "ea", "1b", "00"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 2057 (Dev)"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "3a5a2c",
+			"length": 7,
+			"write": false,
+			"values": ["55", "41", "56", "53", "41", "89", "f6"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 2057 (Dev)"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "3a4376",
+			"write": false,
+			"value": "41",
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 2057 (Dev)"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "3a3300",
+			"write": false,
+			"value": "55",
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 2057 (Dev)"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "3a4628",
+			"length": 8,
+			"write": true,
+			"values": ["48", "c7", "c0", "19", "01", "00", "00", "c3"],
+		},
+		{
+			"address": "3a7112",
+			"length": 5,
+			"write": true,
+			"values": ["90", "90", "90", "90", "90"]
+		},
+		{
+			"address": "3a70f7",
+			"length": 5,
+			"write": true,
+			"values": ["90", "90", "90", "90", "90"]
+		},
+		{
+			"address": "3a5a2c",
+			"length": 7,
+			"write": true,
+			"values": ["48", "31", "c0", "48", "ff", "c0", "c3"]
+		},
+		{
+			"address": "3a4376",
+			"write": true,
+			"value": "c3"
+		},
+		{
+			"address": "3a3300",
+			"write": true,
+			"value": "c3"
+		},
+	]
+}

@@ -1,0 +1,122 @@
+{
+	"name": "Sublime Text Build 4113 patcher",
+	"versions": ["1.0.1"],
+	"patch": [
+		{
+			"address": "36567c",
+			"length": 4,
+			"write": false,
+			"values": ["55", "41", "57", "41"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "35bccb",
+			"length": 5,
+			"write": false,
+			"values": ["e8", "ac", "82", "18", "00"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "35bce6",
+			"length": 5,
+			"write": false,
+			"values": ["e8", "91", "82", "18", "00"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "367171",
+			"length": 7,
+			"write": false,
+			"values": ["55", "41", "56", "53", "41", "89", "f6"],
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "3653ce",
+			"write": false,
+			"value": "55",
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "34f5f0",
+			"write": false,
+			"value": "41",
+			"after": [
+				{
+					"message": "Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "36567c",
+			"length": 4,
+			"write": true,
+			"values": ["48", "31", "c0", "c3"],
+		},
+		{
+			"address": "35bccb",
+			"length": 5,
+			"write": true,
+			"values": ["90", "90", "90", "90", "90"]
+		},
+		{
+			"address": "35bce6",
+			"length": 5,
+			"write": true,
+			"values": ["90", "90", "90", "90", "90"]
+		},
+		{
+			"address": "367171",
+			"length": 7,
+			"write": true,
+			"values": ["48", "31", "c0", "48", "ff", "c0", "c3"]
+		},
+		{
+			"address": "3653ce",
+			"write": true,
+			"value": "c3"
+		},
+		{
+			"address": "34f5f0",
+			"write": true,
+			"value": "c3"
+		},
+	]
+}

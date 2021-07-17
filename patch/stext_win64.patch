@@ -1,0 +1,118 @@
+{
+	"name": "Sublime Text Build 4113 patcher",
+	"versions": ["1.0.1"],
+	"patch": [
+		{
+			"address": "a47e2",
+			"write": false,
+			"values": ["55", "41", "57", "41"],
+			"after": [
+				{
+					"message": "Test 1: Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "712a",
+			"write": false,
+			"values": ["e8", "a1", "1d", "20", "00"],
+			"after": [
+				{
+					"message": "Test 2: Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "7143",
+			"write": false,
+			"values": ["e8", "88", "1d", "20", "00"],
+			"after": [
+				{
+					"message": "Test 3: Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "a62d9",
+			"write": false,
+			"values": ["55", "56", "57", "48", "83", "ec", "30"],
+			"after": [
+				{
+					"message": "Test 4: Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "a4455",
+			"write": false,
+			"value": "55",
+			"after": [
+				{
+					"message": "Test 5: Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "400",
+			"write": false,
+			"value": "41",
+			"after": [
+				{
+					"message": "Test 6: Incorrect application. Make sure your file not patched and build is 4113"
+				},
+				{
+					"exit": 1
+				}
+			]
+		},
+		{
+			"address": "a47e2",
+			"length": 4,
+			"write": true,
+			"values": ["48", "31", "c0", "c3"]
+		},
+		{
+			"address": "712a",
+			"length": 5,
+			"write": true,
+			"values": ["90", "90", "90", "90", "90"]
+		},
+		{
+			"address": "7143",
+			"length": 5,
+			"write": true,
+			"values": ["90", "90", "90", "90", "90"]
+		},
+		{
+			"address": "a62d9",
+			"length": 7,
+			"write": true,
+			"values": ["48", "31", "c0", "48", "ff", "c0", "c3"]
+		},
+		{
+			"address": "a4455",
+			"write": true,
+			"value": "c3"
+		},
+		{
+			"address": "400",
+			"write": true,
+			"value": "c3"
+		}
+	]
+}
